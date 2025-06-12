@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tableau de Compétences | Dorian Ponsada</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Fira Code', monospace; }
+  </style>
+</head>
+<body class="bg-gray-900 text-white">
+  <nav class="bg-gray-800 p-4 flex justify-between items-center shadow-lg sticky top-0 z-50">
+    <div class="text-lg font-bold">Dorian Ponsada</div>
+    <div class="space-x-4">
+      <a href="index.html" class="hover:underline">Accueil</a>
+      <a href="e5.html" class="hover:underline">E5</a>
+      <a href="competences.html" class="hover:underline">Compétences</a>
+      <a href="tableau.html" class="hover:underline">Tableau</a>
+    </div>
+  </nav>
+
+    <div class="bg-indigo-600 text-white text-center text-5xl font-extrabold py-12 shadow-md">
+    Mes compétences
+  </div>
+
+
+  <main class="p-8 min-h-screen">
+    <p class="mb-6 text-center text-gray-400 max-w-3xl mx-auto">
+      Ce tableau récapitule l’ensemble des compétences que j’ai acquises au cours de mes études et de mes expériences en entreprise. Elles sont classées par bloc de compétence selon le référentiel BTS SIO SISR.
+    </p>
+    <div class="overflow-auto">
+      <table class="min-w-full table-auto text-sm text-left text-gray-300">
+        <thead class="bg-gray-700 text-gray-100">
+          <tr>
+            <th class="px-4 py-2">Bloc</th>
+            <th class="px-4 py-2">Compétence</th>
+            <th class="px-4 py-2">Niveau</th>
+            <th class="px-4 py-2">Commentaires</th>
+          </tr>
+        </thead>
+        <tbody class="bg-gray-800">
+          <!-- Cybersécurité -->
+          <tr class="border-b border-gray-700"><td colspan="4" class="px-4 py-4 text-purple-400 font-semibold">Cybersécurité</td></tr>
+          <tr class="border-b border-gray-700">
+            <td class="px-4 py-2">Cybersécurité</td>
+            <td class="px-4 py-2">nmap</td>
+            <td class="px-4 py-2">Intermédiaire</td>
+            <td class="px-4 py-2">Scan de ports, audit réseau</td>
+          </tr>
+          <tr class="border-b border-gray-700">
+            <td class="px-4 py-2">Cybersécurité</td>
+            <td class="px-4 py-2">metasploit</td>
+            <td class="px-4 py-2">Débutant</td>
+            <td class="px-4 py-2">Test d'exploitation de vulnérabilités</td>
+          </tr>
+          <tr class="border-b border-gray-700 mb-4">
+            <td class="px-4 py-2">Cybersécurité</td>
+            <td class="px-4 py-2">ettercap</td>
+            <td class="px-4 py-2">Débutant</td>
+            <td class="px-4 py-2">Analyse de trames réseau</td>
+          </tr>
+
+          <!-- Réseau -->
+          <tr class="border-b border-gray-700"><td colspan="4" class="px-4 py-4 text-green-400 font-semibold">Réseau</td></tr>
+          <tr class="border-b border-gray-700">
+            <td class="px-4 py-2">Réseau</td>
+            <td class="px-4 py-2">Active Directory</td>
+            <td class="px-4 py-2">Bon</td>
+            <td class="px-4 py-2">Installation, gestion d'utilisateurs et GPO</td>
+          </tr>
+          <tr class="border-b border-gray-700 mb-4">
+            <td class="px-4 py-2">Réseau</td>
+            <td class="px-4 py-2">DNS/DHCP</td>
+            <td class="px-4 py-2">Intermédiaire</td>
+            <td class="px-4 py-2">Mise en place sur Windows Server</td>
+          </tr>
+
+          <!-- Système -->
+          <tr class="border-b border-gray-700"><td colspan="4" class="px-4 py-4 text-yellow-400 font-semibold">Système</td></tr>
+          <tr class="border-b border-gray-700 mb-4">
+            <td class="px-4 py-2">Système</td>
+            <td class="px-4 py-2">Linux Debian</td>
+            <td class="px-4 py-2">Bon</td>
+            <td class="px-4 py-2">Gestion de services, sécurité, firewall</td>
+          </tr>
+
+          <!-- Développement -->
+          <tr class="border-b border-gray-700"><td colspan="4" class="px-4 py-4 text-blue-400 font-semibold">Développement</td></tr>
+          <tr class="border-b border-gray-700">
+            <td class="px-4 py-2">Développement</td>
+            <td class="px-4 py-2">Groovy</td>
+            <td class="px-4 py-2">Intermédiaire</td>
+            <td class="px-4 py-2">Automatisation via Jenkins</td>
+          </tr>
+          <tr class="border-b border-gray-700 mb-4">
+            <td class="px-4 py-2">Développement</td>
+            <td class="px-4 py-2">HTML/CSS/JS</td>
+            <td class="px-4 py-2">Bon</td>
+            <td class="px-4 py-2">Création de sites web dynamiques</td>
+          </tr>
+
+          <!-- Outils -->
+          <tr class="border-b border-gray-700"><td colspan="4" class="px-4 py-4 text-pink-400 font-semibold">Outils</td></tr>
+          <tr class="border-b border-gray-700">
+            <td class="px-4 py-2">Outils</td>
+            <td class="px-4 py-2">VirtualBox</td>
+            <td class="px-4 py-2">Bon</td>
+            <td class="px-4 py-2">Virtualisation pour scénarios de test</td>
+          </tr>
+          <tr>
+            <td class="px-4 py-2">Outils</td>
+            <td class="px-4 py-2">Jenkins</td>
+            <td class="px-4 py-2">Intermédiaire</td>
+            <td class="px-4 py-2">Déploiement automatisé de jobs</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </main>
+
+  <footer class="bg-gray-800 text-center text-sm p-4 text-gray-400 mt-8">
+    © 2025 Dorian Ponsada — Portfolio réalisé dans le cadre du BTS SIO SISR
+  </footer>
+</body>
+</html>
