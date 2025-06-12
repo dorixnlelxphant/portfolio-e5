@@ -28,9 +28,11 @@
     Portfolio E5
   </div>
 
-  <main class="flex-grow p-8 max-w-5xl mx-auto flex flex-col md:flex-row items-center gap-12">
-    <!-- Photo -->
-    <div class="flex-shrink-0 rounded-xl overflow-hidden border-4 border-cyan-400 shadow-lg max-w-xs md:max-w-sm">
+<main class="flex-grow p-8 max-w-7xl mx-auto grid md:grid-cols-2 gap-24 items-start">
+
+  <!-- Bloc Dorian (photo au-dessus) -->
+  <section class="flex flex-col items-center md:items-start space-y-6">
+    <div class="rounded-xl overflow-hidden border-4 border-cyan-400 shadow-lg w-60 h-60">
       <img 
         src="assets/photo_cv.jpg" 
         alt="Photo de Dorian Ponsada" 
@@ -38,23 +40,40 @@
         loading="lazy"
       />
     </div>
-
-    <!-- Texte d'intro -->
-    <section class="text-center md:text-left max-w-xl space-y-6">
-      <h1 class="text-4xl font-bold text-pink-400">Bonjour, je suis Dorian Ponsada</h1>
+    <div class="text-center md:text-left space-y-4">
+      <h1 class="text-4xl font-bold" style="color: #FF38BC;">Bonjour, je suis Dorian Ponsada</h1>
       <p class="text-gray-300 text-lg leading-relaxed">
-        Étudiant en BTS Services Informatiques aux Organisations à Montpellier, passionné par la programmation, le développement web et la cybersécurité.
-        J'aime résoudre des problèmes complexes, apprendre de nouvelles technologies et relever des défis techniques.  
+        Étudiant en BTS Services Informatiques aux Organisations à l'ICFA Campus Saint-François à Montpellier, passionné par la cybersécurité et le réseau.
+        J'aime résoudre des problèmes complexes, apprendre de nouvelles technologies et relever des défis techniques notamment dans le domaine de la cybersécurité afin de comprendre afin de sécuriser l'avenir de l'informatique.
       </p>
       <p class="text-gray-400 italic">
-        Mon objectif : devenir un expert en informatique, avec un focus sur la sécurité des réseaux et le développement d’applications robustes.
+        Mon objectif : devenir un expert en informatique, avec un focus sur la sécurité des réseau et web.
       </p>
-    </section>
-  </main>
+    </div>
+  </section>
 
-  <footer class="bg-gray-800 text-gray-400 text-center py-4 mt-auto border-t border-gray-700">
-    Ce site est fait en HTML, CSS et JS pur, thème moderne cybersécurité.
-  </footer>
+  <!-- Bloc entreprise -->
+  <section class="bg-gray-800 p-6 rounded-xl shadow space-y-4 text-center md:text-left">
+    <div class="flex justify-center md:justify-start">
+      <img src="assets/nexpublica.png" alt="Logo Inetum" class="h-20 object-contain mb-4" />
+    </div>
+    <p class="text-gray-300">
+      Je réalise mon alternance chez <strong>Nexpublica</strong>, une entreprise de services du numérique (ESN) spécialisée dans les solutions innovantes pour les organisations majoritairement publiques et mais aussi privées.
+      <div class="map-container">
+    <iframe 
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2889.0030235174613!2d3.9178974773544732!3d43.60647865544968!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12b6a9594e767113%3A0x7999d6d37327e6c0!2sInetum%20Software%20France!5e0!3m2!1sfr!2sfr!4v1749729343606!5m2!1sfr!2sfr" 
+      width="513" 
+      height="450" 
+      allowfullscreen="" 
+      loading="lazy" 
+      referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+  </div>
+  </section>
+
+</main>
+
+
 
 </body>
 </html>
