@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Projet E6 - Projet 1</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet" />
+
+  <style>
+    body { font-family: "Fira Code", monospace; }
+    .bg-galaxy { background: radial-gradient(circle, #2d0048, #00000f 80%); }
+  </style>
+</head>
+
+<body class="bg-galaxy text-white min-h-screen">
+
+  <!-- NAV -->
+  <nav class="bg-black bg-opacity-50 backdrop-blur-lg p-4 flex justify-between items-center shadow-lg sticky top-0 z-50 border-b border-purple-900">
+    <div class="text-lg font-bold text-purple-300">Dorian Ponsada</div>
+    <div class="space-x-4">
+      <a href="index.html" class="hover:text-purple-400 font-semibold">Accueil</a>
+      <a href="e5.html" class="hover:text-purple-400 font-semibold">E5 Projets</a>
+      <a href="e6.html" class="hover:text-purple-400 font-semibold">E6</a>
+      <a href="competences.html" class="hover:text-purple-400 font-semibold">Compétences</a>
+      <a href="tableau.html" class="hover:text-purple-400 font-semibold">Tableau</a>
+      <a href="e6_projet1.html" class="underline text-purple-300 font-semibold">Projet E6 1</a>
+    </div>
+  </nav>
+
+  <!-- HEADER -->
+  <div class="bg-gradient-to-r from-purple-700 to-indigo-800 text-center text-5xl font-extrabold py-12 shadow-xl border-b border-purple-900">
+    Projet E6 – VPN · Vault · Backup
+  </div>
+
+  <main class="p-8 max-w-4xl mx-auto space-y-10">
+
+    <p class="text-gray-300 text-lg leading-relaxed">
+      Ce projet consiste à déployer une infrastructure sécurisée comprenant un VPN WireGuard, un gestionnaire de mots de passe Vaultwarden et un système de sauvegarde automatisé. L’objectif est de garantir la confidentialité des accès, la centralisation sécurisée des identifiants et la protection des données grâce à une stratégie de backup fiable. L’ensemble repose sur une installation robuste, documentée et maintenable, assurant un haut niveau de sécurité pour les utilisateurs.
+    </p>
+
+    <!-- Schéma d'architecture -->
+    <section class="bg-black bg-opacity-30 p-6 rounded-xl border border-purple-800 shadow-xl">
+      <h2 class="text-2xl font-semibold mb-4 text-pink-400">Schéma d'architecture</h2>
+      <div class="rounded-lg bg-purple-900 h-64 w-full"></div>
+    </section>
+
+    <!-- Téléchargements -->
+    <section class="bg-black bg-opacity-30 p-6 rounded-xl border border-purple-800 shadow-xl space-y-4">
+      <h2 class="text-2xl font-semibold mb-4 text-pink-400">Documents à télécharger</h2>
+
+      <a href="assets/fiche_annexe_projet1.pdf" class="block bg-purple-700 hover:bg-purple-600 text-white px-4 py-2 rounded shadow text-center">Fiche annexe 9</a>
+
+      <a href="assets/doc_technique_projet1.pdf" class="block bg-purple-700 hover:bg-purple-600 text-white px-4 py-2 rounded shadow text-center">Documentation technique</a>
+
+      <a href="assets/doc_utilisateur_projet1.pdf" class="block bg-purple-700 hover:bg-purple-600 text-white px-4 py-2 rounded shadow text-center">Documentation utilisateur</a>
+
+    </section>
+
+  </main>
+
+</body>
+</html>
