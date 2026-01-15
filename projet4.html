@@ -3,14 +3,14 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Projet 2 | Dorian Ponsada</title>
+  <title>Mission 2 | Dorian Ponsada</title>
 
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
   <link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet" />
 
   <style>
     body { font-family: "Fira Code", monospace; }
-    .bg-galaxy { background: radial-gradient(circle at 20% 20%, #35005a, #000012 80%); }
+    .bg-galaxy { background: radial-gradient(circle at 20% 20%, #33004d, #000010 80%); }
   </style>
 </head>
 
@@ -24,33 +24,31 @@
       <a href="e5.html" class="hover:text-purple-400">E5 Projets</a>
       <a href="competences.html" class="hover:text-purple-400">Compétences</a>
       <a href="tableau.html" class="hover:text-purple-400">Tableau</a>
-      <a href="projet2.html" class="underline text-purple-300 font-semibold">Projet 2</a>
+      <a href="projet4.html" class="underline text-purple-300 font-semibold">Mission 2</a>
     </div>
   </nav>
 
   <!-- HEADER -->
   <div class="bg-gradient-to-r from-purple-700 to-indigo-800 text-center text-5xl font-extrabold py-12 shadow-xl border-b border-purple-900">
-    Projet 2 : Renommage des users de batchs
+    Mission 2 : Bascule de données Oracle 12
   </div>
 
   <!-- CONTENT -->
   <main class="p-8 max-w-4xl mx-auto min-h-screen">
 
     <p class="mb-8 text-gray-300 text-lg leading-relaxed">
-      Ce projet un processus de renommage des users des batchs et modifications du mot de passe
-      afin d'assurer la bonnes connexions aux automates,
-      en respectant les normes d'identifiants/mot de passe de l'entreprise.
-      En modifiant également les fichiers de configuration.
+      Cette mission consiste à la planification, installation et docuementation
+       d'une copie de données d'une base de données de production vers une base de données de test.
     </p>
 
     <!-- Fonctionnalités -->
     <section class="mb-10 bg-black bg-opacity-30 p-6 rounded-xl border border-purple-800 shadow-lg">
       <h2 class="text-2xl font-semibold mb-4 text-pink-400">Fonctionnalités principales</h2>
       <ul class="list-disc list-inside space-y-2 text-gray-300">
-        <li>Renommer correctement les users des automates</li>
-        <li>Changer le mot de passe</li>
-        <li>S'assurer de la bonne connexion aux automates afin de les modifier</li>
-        <li>Mettre aux normes touts les automates</li>
+        <li>Préparation et ordonnancement d’une réplication des données PROD → TEST</li>
+        <li>Import dans la base de test et remise en service de l’environnement</li>
+        <li>Vérification de la conformité, intégrité et disponibilité des données copiées</li>
+        <li>Documentation complète du processus et amélioration continue de la procédure</li>
       </ul>
     </section>
 
@@ -58,10 +56,10 @@
     <section class="mb-10 bg-black bg-opacity-30 p-6 rounded-xl border border-purple-800 shadow-lg">
       <h2 class="text-2xl font-semibold mb-4 text-pink-400">Technologies utilisées</h2>
       <div class="flex flex-wrap gap-4">
-        <span class="bg-purple-700 px-3 py-1 rounded-full text-sm font-medium">WinSCP</span>
-        <span class="bg-green-700 px-3 py-1 rounded-full text-sm font-medium">Putty</span>
-        <span class="bg-yellow-600 px-3 py-1 rounded-full text-sm font-medium">Linux</span>
-        <span class="bg-indigo-700 px-3 py-1 rounded-full text-sm font-medium">Documentation</span>
+        <span class="bg-purple-700 px-3 py-1 rounded-full text-sm font-medium">Linux</span>
+        <span class="bg-green-700 px-3 py-1 rounded-full text-sm font-medium">Oracle</span>
+        <span class="bg-yellow-600 px-3 py-1 rounded-full text-sm font-medium">Ticket</span>
+        <span class="bg-indigo-700 px-3 py-1 rounded-full text-sm font-medium">Windows Server</span>
       </div>
     </section>
 
@@ -70,8 +68,9 @@
       <h2 class="text-2xl font-semibold mb-4 text-pink-400">Captures d'écran</h2>
 
       <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
-        <img src="assets/automate.png" class="rounded-lg shadow-xl border border-purple-700">
-        <img src="assets/linux.png" class="rounded-lg shadow-xl border border-purple-700">
+        <img src="assets/job.png" class="rounded-lg shadow-xl border border-purple-700">
+        <img src="assets/database.png" class="rounded-lg shadow-xl border border-purple-700">
+        <img src="assets/tns.png" class="rounded-lg shadow-xl border border-purple-700">
       </div>
     </section>
 
