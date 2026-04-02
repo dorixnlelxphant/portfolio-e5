@@ -42,30 +42,81 @@
   </tr>
 </thead>
 <tbody class="bg-black bg-opacity-30">
-  <tr class="border-b border-purple-800"><td colspan="4" class="px-4 py-4 text-pink-400 font-semibold">Cybersécurité</td></tr>
+
+  <!-- CYBERSECURITE -->
+  <tr class="border-b border-purple-800">
+    <td colspan="4" class="px-4 py-4 text-pink-400 font-semibold">Cybersécurité</td>
+  </tr>
   <tr class="border-b border-purple-800"><td></td><td>Nmap</td><td>Bon</td><td>Scan de ports, audit réseau</td></tr>
-  <tr class="border-b border-purple-800"><td></td><td>Metasploit</td><td>Débutant</td><td>Exploit de vulnérabilités</td></tr>
-  <tr class="border-b border-purple-800"><td></td><td>Ettercap</td><td>Débutant</td><td>Analyse de trames</td></tr>
-  <tr class="border-b border-purple-800"><td></td><td>Brut force</td><td>Intermédiaire</td><td>Hydra, Gobuster</td></tr>
-  <tr class="border-b border-purple-800"><td></td><td>Crypto & hash</td><td>Débutant</td><td>John the Ripper</td></tr>
+  <tr class="border-b border-purple-800"><td></td><td>Metasploit</td><td>Intermédiaire</td><td>Exploitation de vulnérabilités</td></tr>
+  <tr class="border-b border-purple-800"><td></td><td>Ettercap</td><td>Intermédiaire</td><td>MITM, analyse réseau</td></tr>
+  <tr class="border-b border-purple-800"><td></td><td>Wireshark</td><td>Bon</td><td>Analyse de trames réseau</td></tr>
+  <tr class="border-b border-purple-800"><td></td><td>Hydra</td><td>Intermédiaire</td><td>Bruteforce services</td></tr>
+  <tr class="border-b border-purple-800"><td></td><td>Gobuster</td><td>Intermédiaire</td><td>Enumération web</td></tr>
+  <tr class="border-b border-purple-800"><td></td><td>John the Ripper</td><td>Intermédiaire</td><td>Crack de hash</td></tr>
+  <tr class="border-b border-purple-800"><td></td><td>Hashcat</td><td>Débutant</td><td>Crack GPU</td></tr>
+  <tr class="border-b border-purple-800"><td></td><td>Fail2ban</td><td>Bon</td><td>Protection brute force</td></tr>
+  <tr class="border-b border-purple-800"><td></td><td>UFW / iptables</td><td>Bon</td><td>Firewall Linux</td></tr>
+  <tr class="border-b border-purple-800"><td></td><td>Audit sécurité Linux</td><td>Bon</td><td>Durcissement système</td></tr>
 
-  <tr class="border-b border-purple-800"><td colspan="4" class="px-4 py-4 text-green-400 font-semibold">Réseau</td></tr>
-  <tr class="border-b border-purple-800"><td></td><td>Active Directory</td><td>Bon</td><td>GPO, utilisateurs</td></tr>
-  <tr class="border-b border-purple-800"><td></td><td>DNS/DHCP</td><td>Intermédiaire</td><td>Windows Server</td></tr>
-  <tr class="border-b border-purple-800"><td></td><td>Serveur Web</td><td>Bon</td><td>Apache2, IIS</td></tr>
+  <!-- RESEAU -->
+  <tr class="border-b border-purple-800">
+    <td colspan="4" class="px-4 py-4 text-green-400 font-semibold">Réseau</td>
+  </tr>
+  <tr class="border-b border-purple-800"><td></td><td>Active Directory</td><td>Très bon</td><td>OU, GPO, gestion utilisateurs</td></tr>
+  <tr class="border-b border-purple-800"><td></td><td>DNS</td><td>Bon</td><td>Zones, résolution interne</td></tr>
+  <tr class="border-b border-purple-800"><td></td><td>DHCP</td><td>Bon</td><td>Plages IP, réservations</td></tr>
+  <tr class="border-b border-purple-800"><td></td><td>Routage / NAT</td><td>Intermédiaire</td><td>Configuration réseau VM</td></tr>
+  <tr class="border-b border-purple-800"><td></td><td>VLAN</td><td>Intermédiaire</td><td>Segmentation réseau</td></tr>
+  <tr class="border-b border-purple-800"><td></td><td>pfSense</td><td>Bon</td><td>Firewall, NAT, règles</td></tr>
+  <tr class="border-b border-purple-800"><td></td><td>VPN (OpenVPN)</td><td>Intermédiaire</td><td>Accès distant sécurisé</td></tr>
 
-  <tr class="border-b border-purple-800"><td colspan="4" class="px-4 py-4 text-yellow-400 font-semibold">Système</td></tr>
-  <tr class="border-b border-purple-800"><td></td><td>Linux Debian</td><td>Bon</td><td>Gestion services, sécurité</td></tr>
-  <tr class="border-b border-purple-800"><td></td><td>Kali Linux</td><td>Bon</td><td>CTF, pentesting</td></tr>
+  <!-- SYSTEME -->
+  <tr class="border-b border-purple-800">
+    <td colspan="4" class="px-4 py-4 text-yellow-400 font-semibold">Système</td>
+  </tr>
+  <tr class="border-b border-purple-800"><td></td><td>Linux Debian</td><td>Très bon</td><td>Administration serveur</td></tr>
+  <tr class="border-b border-purple-800"><td></td><td>Kali Linux</td><td>Bon</td><td>Pentest, CTF</td></tr>
+  <tr class="border-b border-purple-800"><td></td><td>Windows Server 2022</td><td>Très bon</td><td>AD, DNS, DHCP</td></tr>
+  <tr class="border-b border-purple-800"><td></td><td>SSH</td><td>Très bon</td><td>Accès distant sécurisé</td></tr>
+  <tr class="border-b border-purple-800"><td></td><td>Gestion utilisateurs Linux</td><td>Bon</td><td>Permissions, sudo</td></tr>
+  <tr class="border-b border-purple-800"><td></td><td>Sauvegarde / restauration</td><td>Bon</td><td>Procédures PRA</td></tr>
 
-  <tr class="border-b border-purple-800"><td colspan="4" class="px-4 py-4 text-blue-400 font-semibold">Développement</td></tr>
-  <tr class="border-b border-purple-800"><td></td><td>Groovy</td><td>Intermédiaire</td><td>Automatisation Jenkins</td></tr>
-  <tr class="border-b border-purple-800"><td></td><td>HTML/CSS/JS</td><td>Bon</td><td>Sites dynamiques</td></tr>
-  <tr class="border-b border-purple-800"><td></td><td>Python</td><td>Bon</td><td>Scripts</td></tr>
+  <!-- DEV -->
+  <tr class="border-b border-purple-800">
+    <td colspan="4" class="px-4 py-4 text-blue-400 font-semibold">Développement</td>
+  </tr>
+  <tr class="border-b border-purple-800"><td></td><td>HTML/CSS/JS</td><td>Très bon</td><td>Sites dynamiques</td></tr>
+  <tr class="border-b border-purple-800"><td></td><td>Python</td><td>Bon</td><td>Scripts automatisation</td></tr>
+  <tr class="border-b border-purple-800"><td></td><td>Groovy</td><td>Bon</td><td>Scripts Jenkins</td></tr>
+  <tr class="border-b border-purple-800"><td></td><td>Bash</td><td>Bon</td><td>Scripts Linux</td></tr>
+  <tr class="border-b border-purple-800"><td></td><td>SQL</td><td>Intermédiaire</td><td>MariaDB, requêtes</td></tr>
 
-  <tr class="border-b border-purple-800"><td colspan="4" class="px-4 py-4 text-pink-400 font-semibold">Outils</td></tr>
-  <tr class="border-b border-purple-800"><td></td><td>VirtualBox</td><td>Bon</td><td>VM test</td></tr>
-  <tr class="border-b border-purple-800"><td></td><td>Packet Tracer</td><td>Bon</td><td>Simulation réseau</td></tr>
+  <!-- DEVOPS / OUTILS -->
+  <tr class="border-b border-purple-800">
+    <td colspan="4" class="px-4 py-4 text-purple-400 font-semibold">DevOps & Outils</td>
+  </tr>
+  <tr class="border-b border-purple-800"><td></td><td>Docker</td><td>Bon</td><td>Containers (Keycloak, Wiki.js)</td></tr>
+  <tr class="border-b border-purple-800"><td></td><td>Docker Compose</td><td>Bon</td><td>Déploiement multi-services</td></tr>
+  <tr class="border-b border-purple-800"><td></td><td>Jenkins</td><td>Intermédiaire</td><td>CI/CD, automatisation</td></tr>
+  <tr class="border-b border-purple-800"><td></td><td>Git</td><td>Bon</td><td>Versioning (GitHub)</td></tr>
+  <tr class="border-b border-purple-800"><td></td><td>WinSCP</td><td>Bon</td><td>Transfert fichiers serveur</td></tr>
+
+  <!-- VIRTUALISATION -->
+  <tr class="border-b border-purple-800">
+    <td colspan="4" class="px-4 py-4 text-indigo-400 font-semibold">Virtualisation</td>
+  </tr>
+  <tr class="border-b border-purple-800"><td></td><td>VirtualBox</td><td>Très bon</td><td>Lab réseau</td></tr>
+  <tr class="border-b border-purple-800"><td></td><td>VMware</td><td>Bon</td><td>Environnements virtualisés</td></tr>
+
+  <!-- OUTILS RESEAU -->
+  <tr class="border-b border-purple-800">
+    <td colspan="4" class="px-4 py-4 text-blue-300 font-semibold">Outils Réseau</td>
+  </tr>
+  <tr class="border-b border-purple-800"><td></td><td>Cisco Packet Tracer</td><td>Bon</td><td>Simulation réseau</td></tr>
+  <tr class="border-b border-purple-800"><td></td><td>Netcat</td><td>Intermédiaire</td><td>Debug réseau</td></tr>
+  <tr class="border-b border-purple-800"><td></td><td>Ping / Traceroute</td><td>Très bon</td><td>Diagnostic réseau</td></tr>
+
 </tbody>
         <!-- 💜 J'ai gardé tout ton tableau EXACTEMENT comme tu l'as envoyé -->
         <!-- (ne pas réécrire ici pour éviter le doublon énorme) -->
